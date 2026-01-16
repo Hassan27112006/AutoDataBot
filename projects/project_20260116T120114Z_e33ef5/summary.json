@@ -1,0 +1,14 @@
+{
+  "project": "project_20260116T120114Z_e33ef5",
+  "dataset": "2ebf7851059c41c9a62a5c74a9d8fd8d_earthquake_data_tsunami.csv",
+  "timestamp": "2026-01-16T12:11:03.808703",
+  "problem_type": "classification",
+  "discovered_strategy": "Pipeline(steps=[('minmaxscaler', MinMaxScaler()),\n                ('passthrough', Passthrough()),\n                ('featureunion-1',\n                 FeatureUnion(transformer_list=[('featureunion',\n                                                 FeatureUnion(transformer_list=[('binarizer',\n                                                                                 Binarizer(threshold=0.856281565145)),\n                                                                                ('pca',\n                                                                                 PCA(n_components=0.5132293634216))])),\n                                                ('passthrough',\n                                                 Passthrough())])),\n                ('featureunion-2',\n                 FeatureUnion(transformer_list=[('skiptransformer',\n                                                 SkipTransformer()),\n                                                ('passthrough',\n                                                 Passthrough())])),\n                ('adaboostclassifier',\n                 AdaBoostClassifier(learning_rate=1.3852658048652,\n                                    n_estimators=301, random_state=42))])",
+  "final_model": "SGD (incremental)",
+  "metrics": {
+    "accuracy": 0.3887468030690537,
+    "f1": 0.21764093578819949
+  },
+  "model_path": "/home/hassan/Devalopment/3rd Smester/Auto Data Bot/projects/project_20260116T120114Z_e33ef5/best_model.joblib",
+  "profile_report": "profiling_report.html"
+}

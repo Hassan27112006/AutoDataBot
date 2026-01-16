@@ -1,0 +1,13 @@
+{
+  "project": "project_20251206T092420Z_406972",
+  "dataset": "ef053f789a4b4da49b6903b3850dff35_Indian_Liver_Patient_Dataset_ILPD.csv",
+  "time": "2025-12-06T09:24:27.840992",
+  "problem": "classification",
+  "selected_model": "RF",
+  "trained_metrics": {
+    "accuracy": 0.6357267950963222,
+    "f1": 0.6290915767470764
+  },
+  "model_path": "/home/hassan/Devalopment/Auto Data Bot/projects/project_20251206T092420Z_406972/best_model.joblib",
+  "profile_report": "profiling_report.html"
+}

@@ -69,20 +69,4 @@ Auto-Data-Bot/
     └── index.html          # ChatGPT-style front-end
 
 
-docs = [
-    ("wiki_1", "Python is a programming language ..."),
-    ("wiki_2", "Machine learning is a field of AI ...")
-]
 
-from core.chatbot_engine import ChatbotEngine
-
-engine = ChatbotEngine()
-engine.build_index(docs, target="general", chunk_size=512, overlap=50)
-
-
-
----
-
-If you want, I can also **write a fully formatted `requirements.txt`** and **Flask `index.html` front-end template** so your README and project are completely copy-paste ready.  
-
-Do you want me to do that next?
